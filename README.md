@@ -7,7 +7,7 @@ This is a template for React native written in TypeScript. It contains a basic s
 ## Rename Project
 To rename your project, just run in terminal `npx react-native-rename <newName>`
 
-For more information, refer to <a href=https://www.npmjs.com/package/react-native-rename>Rename</a>
+For more information, refer to <a href=https://www.npmjs.com/package/react-native-rename>rename</a>
 
 ## Dependencies
 * **react-native** (v0.66.1)
