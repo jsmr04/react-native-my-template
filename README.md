@@ -1,6 +1,14 @@
 # template-rn
 This is a template for React native written in TypeScript. It contains a basic structure for your RN project + a set of common dependencies. Happy coding!
 
+## Installation
+`npx react-native init <ProjectName> --template https://github.com/jsmr04/react-native-my-template.git`
+
+## Rename Project
+To rename your project, just run in terminal `npx react-native-rename <newName>`
+
+For more information, refer to <a href=https://www.npmjs.com/package/react-native-rename>Rename</a>
+
 ## Dependencies
 * **react-native** (v0.66.1)
 * **react-navigation/drawer** (v6.1.8)
@@ -15,10 +23,3 @@ This is a template for React native written in TypeScript. It contains a basic s
 * **react-native-vector-icons** (v8.1.0)
 * **react-native-splash-screen** (v3.2.0)
 * **axios** (v0.23.0)
-
-To install dependencies, run `npm i && pod-install`
-
-## Rename Project
-To rename your project, just run in terminal `npx react-native-rename <newName>`
-
-For more information, refer to <a href =https://www.npmjs.com/package/react-native-rename>Rename</a>
