@@ -1,4 +1,4 @@
-# template-rn
+# React Native Template
 This is a template for React native written in TypeScript. It contains a basic structure for your RN project + a set of common dependencies. Happy coding!
 
 ## Installation
