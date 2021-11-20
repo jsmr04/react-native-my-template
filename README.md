@@ -9,6 +9,9 @@ To rename your project, just run in terminal `npx react-native-rename <newName>`
 
 For more information, refer to <a href=https://www.npmjs.com/package/react-native-rename>rename</a>
 
+## Environment
+Create your environment file `touch .env`
+
 ## Dependencies
 * **react-native** (v0.66.1)
 * **react-navigation/drawer** (v6.1.8)
@@ -23,3 +26,5 @@ For more information, refer to <a href=https://www.npmjs.com/package/react-nativ
 * **react-native-vector-icons** (v8.1.0)
 * **react-native-splash-screen** (v3.2.0)
 * **axios** (v0.23.0)
+* **moment** (v2.29.1)
+* **react-native-dotenv** (v3.3.0)
