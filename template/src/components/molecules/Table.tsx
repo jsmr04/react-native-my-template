@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {DataTable} from 'react-native-paper';
-import TableTitle from './TableTitle';
-import * as utils from '../../helpers/utils';
+import TableTitle from '~components/molecules/TableTitle';
+import * as utils from '~helpers/utils';
 
 export type Header = {
   title: string;
@@ -49,7 +49,11 @@ const Table: React.FC<Props> = props => {
           .map((item, index) => (
             <DataTable.Row
               key={index.toString()}
-              onPress={() => (onPressItem ? onPressItem((numberOfItemsPerPage * page) + index) : null)}>
+              onPress={() =>
+                onPressItem
+                  ? onPressItem(numberOfItemsPerPage * page + index)
+                  : null
+              }>
               {header.map((element, elementIndex) => (
                 <DataTable.Cell key={`${index}-${elementIndex}`}>
                   {element.type === 'date'

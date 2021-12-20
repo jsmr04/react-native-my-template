@@ -8,16 +8,16 @@ import {
 } from '@react-navigation/drawer';
 import {useSelector} from 'react-redux';
 import {Button} from 'react-native-paper';
-import {DASHBOARD, STACK} from './screens';
-import {RootState} from '../state/store';
-import {CustomText} from '../components/atoms';
-import * as instmintSession from '../helpers/sessionHelper';
+import {DASHBOARD, STACK} from '~navigation/screens';
+import {RootState} from '~state/store';
+import {CustomText} from '~components/atoms';
+import * as instmintSession from '~helpers/sessionHelper';
 
 //Screens
-import DashboardScreen from '../screens/Dashboard';
+import DashboardScreen from '~screens/Dashboard';
 
 //Stacks
-import Stack from './Stack';
+import Stack from '~navigation/Stack';
 
 const Drawer = createDrawerNavigator();
 
@@ -31,11 +31,7 @@ const DrawerNavigator = () => {
         name={DASHBOARD}
         component={DashboardScreen}
       />
-      <Drawer.Screen
-        options={{title: 'Item'}}
-        name={STACK}
-        component={Stack}
-      />
+      <Drawer.Screen options={{title: 'Item'}} name={STACK} component={Stack} />
     </Drawer.Navigator>
   );
 };

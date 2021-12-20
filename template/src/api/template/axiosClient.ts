@@ -1,10 +1,10 @@
-import axios, { AxiosError, AxiosResponse } from "axios";
+import axios, {AxiosError, AxiosResponse} from 'axios';
 
-const instance = axios.create()
+const instance = axios.create();
 
-export const setToken = (token: string | null)=>{
-    instance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-}
+export const setToken = (token: string | null) => {
+  instance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+};
 
 //TODO: Uncomment interceptor
 // instance.interceptors.response.use( (response: AxiosResponse)=>{
@@ -14,4 +14,4 @@ export const setToken = (token: string | null)=>{
 //     //TODO: Intercept Error
 // })
 
-export default instance
+export default instance;

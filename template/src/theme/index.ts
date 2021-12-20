@@ -1,7 +1,7 @@
-import { DefaultTheme } from 'react-native-paper';
+import {DefaultTheme} from 'react-native-paper';
 
 const theme = {
-    ...DefaultTheme
-}
+  ...DefaultTheme,
+};
 
-export default theme
+export default theme;

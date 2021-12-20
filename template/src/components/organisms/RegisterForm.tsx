@@ -3,8 +3,8 @@ import { StyleSheet, View } from 'react-native';
 import { Button } from 'react-native-paper';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import { LabelInputText } from '../molecules';
-import { RegisterData } from '../../types';
+import { LabelInputText } from '~components/molecules';
+import { RegisterData } from '~types';
 
 type Props = {
   onSubmit: (user: RegisterData) => void,

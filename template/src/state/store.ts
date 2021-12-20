@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
 import {configureStore} from '@reduxjs/toolkit';
-import sessionReducer from './reducers/session';
+import sessionReducer from '~state/reducers/session';
 
 const reducer = combineReducers({
   session: sessionReducer,

@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Title from "../atoms/Title";
+import Title from "~components/atoms/Title";
 
 const TableTitle:React.FC<{}> = (props) => (
     <View style={styles.container}>

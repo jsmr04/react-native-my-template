@@ -1,5 +1,5 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
-import { UserSession } from "../../types";
+import { UserSession } from "~types";
 
 // Default
 const userSession: UserSession = {
