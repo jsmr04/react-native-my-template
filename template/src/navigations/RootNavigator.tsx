@@ -4,14 +4,13 @@ import {NavigationContainer} from '@react-navigation/native';
 import {LOGIN, REGISTER, DRAWER_NAVIGATOR} from './screens';
 import {UserSession} from '../types';
 import {useDispatch, useSelector} from 'react-redux';
-import {storeSessionInMemory} from '../redux/reducers/session';
-import {RootState} from '../redux/store';
+import {storeSessionInMemory} from '../state/reducers/session';
+import {RootState} from '../state/store';
 import * as session from '../helpers/sessionHelper';
 
 //Screens
 import LoginScreen from '../screens/Login';
 import RegisterScreen from '../screens/Register';
-// import TestScreen from "../screens/Test";
 
 //Navigators
 import HomeDrawerNavigator from './DrawerNavigator';

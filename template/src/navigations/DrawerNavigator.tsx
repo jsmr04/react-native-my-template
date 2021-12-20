@@ -9,7 +9,7 @@ import {
 import {useSelector} from 'react-redux';
 import {Button} from 'react-native-paper';
 import {DASHBOARD, STACK} from './screens';
-import {RootState} from '../redux/store';
+import {RootState} from '../state/store';
 import {CustomText} from '../components/atoms';
 import * as instmintSession from '../helpers/sessionHelper';
 

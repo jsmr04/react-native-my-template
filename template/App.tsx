@@ -5,7 +5,7 @@ import { AppRegistry } from 'react-native';
 import { name as appName } from './app.json';
 import SplashScreen from "react-native-splash-screen";
 import { Provider } from 'react-redux';
-import { store } from './src/redux/store';
+import { store } from './src/state/store';
 
 const App = () => {
   useEffect(() => {

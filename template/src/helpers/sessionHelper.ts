@@ -1,8 +1,7 @@
-import { store } from "../redux/store";
+import { store } from "../state/store";
 import * as storage from '../storage';
 import { UserSession } from '../types';
-import { storeSessionInMemory, logoutUser } from "../redux/reducers/session";
-import { setToken } from "../api/template/axiosClient";
+import { storeSessionInMemory, logoutUser } from "../state/reducers/session";
 
 export const clear = async () => {
   try {
@@ -11,8 +10,6 @@ export const clear = async () => {
     //Clean Redux
     store.dispatch(logoutUser())
 
-    //
-    // setToken(null)
   } catch (error) {
     console.log(error);
   }

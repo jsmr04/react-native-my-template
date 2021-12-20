@@ -1,5 +1,5 @@
-import { BASE_URL } from "../configuration";
+import Config from "../configuration";
 
 export const getFullPath = (path: string)=>{
-    return BASE_URL + path
+    return Config.BASE_URL + path
 }
