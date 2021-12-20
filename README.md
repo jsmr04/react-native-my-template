@@ -5,12 +5,12 @@ This is a template for React native written in TypeScript. It contains a basic s
 `npx react-native init <ProjectName> --template https://github.com/jsmr04/react-native-my-template.git`
 
 ## Rename Project
-To rename your project, just run in terminal `npx react-native-rename <newName>`
+To rename your project just run in terminal `npx react-native-rename <newName>`
 
-For more information, refer to <a href=https://www.npmjs.com/package/react-native-rename>rename</a>
+For more information refer to <a href=https://www.npmjs.com/package/react-native-rename>rename</a>
 
 ## Environment
-Create your environment file `touch .env`
+Create an environment file `touch .env`
 
 ## Dependencies
 * **react-native** (v0.66.1)
