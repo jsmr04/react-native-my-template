@@ -28,3 +28,4 @@ Create an environment file `touch .env`
 * **axios** (v0.23.0)
 * **moment** (v2.29.1)
 * **react-native-dotenv** (v3.3.0)
+* **babel-plugin-module-resolver** (v4.1.0)
