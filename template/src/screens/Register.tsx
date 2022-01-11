@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import {NavigationProp} from '@react-navigation/native';
 import {RegisterData} from '~/types';
-import {signup} from '~api/template/authentication';
+import {signup} from '~api/client/authentication';
 import {Logo} from '~components/atoms';
 import {RegisterForm} from '~components/organisms';
 import {showErrorAlert} from '~helpers/errorHelper';
