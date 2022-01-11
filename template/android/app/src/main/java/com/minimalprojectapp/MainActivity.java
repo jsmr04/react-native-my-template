@@ -1,4 +1,4 @@
-package com.minimalproject;
+package com.minimalprojectapp;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
