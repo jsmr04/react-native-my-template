@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "minimalproject.app"
-               BlueprintName = "minimalproject"
-               ReferencedContainer = "container:minimalproject.xcodeproj">
+               BuildableName = "MinimalProject.app"
+               BlueprintName = "MinimalProject"
+               ReferencedContainer = "container:MinimalProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "minimalprojectTests.xctest"
-               BlueprintName = "minimalprojectTests"
-               ReferencedContainer = "container:minimalproject.xcodeproj">
+               BuildableName = "MinimalProjectTests.xctest"
+               BlueprintName = "MinimalProjectTests"
+               ReferencedContainer = "container:MinimalProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "minimalproject.app"
-            BlueprintName = "minimalproject"
-            ReferencedContainer = "container:minimalproject.xcodeproj">
+            BuildableName = "MinimalProject.app"
+            BlueprintName = "MinimalProject"
+            ReferencedContainer = "container:MinimalProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "minimalproject.app"
-            BlueprintName = "minimalproject"
-            ReferencedContainer = "container:minimalproject.xcodeproj">
+            BuildableName = "MinimalProject.app"
+            BlueprintName = "MinimalProject"
+            ReferencedContainer = "container:MinimalProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
